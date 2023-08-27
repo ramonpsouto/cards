@@ -27,8 +27,7 @@ h2 {
 
 .title {
     color: #ece8e1;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 60px;
     font-family: 'Bebas Neue', sans-serif;
 }

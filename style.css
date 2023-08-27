@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #9e333f;
+    
+}
+
+p, h1, h2 {
+    color: #ece8e1;
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+}
+
+h1, h2 {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+h1 {
+    color: #cf3d4b;
+}
+
+h2 {
+    display: inline;
+}
+
+.title {
+    color: #ece8e1;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 60px;
+}
+
+.hero-icon {
+    height: 15px;
+    width: auto;
+    margin-bottom: 2px;
+}
+
+.card {
+    width: 300px;
+    height: 430px;
+    border-radius: 12px;
+    background-color: #0e1922;
+    padding: 7px;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text {
+    padding: 5px;
+}
+
+@media screen and (max-width: 1600px) {
+    .grid-container{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+    .card {
+        height: 500px;
+        width: 400px;
+    }
+}

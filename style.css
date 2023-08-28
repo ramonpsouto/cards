@@ -3,7 +3,6 @@
 
 body {
     background-color: #9e333f;
-    
 }
 
 p, h1, h2 {
@@ -19,6 +18,7 @@ h1, h2 {
 
 h1 {
     color: #cf3d4b;
+    margin-top: 10px;
 }
 
 h2 {
@@ -56,7 +56,7 @@ h2 {
     height: 430px;
     border-radius: 12px;
     background-color: #0e1922;
-    padding: 7px;
+    padding: 10px;
 }
 
 img {

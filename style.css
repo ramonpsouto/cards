@@ -87,9 +87,7 @@ footer {
     .grid-container {
         grid-template-columns: auto;
     }
-    .card {
-        height: 500px;
-    }
+
 }
 
 @media screen and (max-width: 500px) {
